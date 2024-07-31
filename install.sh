@@ -1,10 +1,12 @@
+#bash -c "$(wget -qLO - https://raw.githubusercontent.com/majordingleberry/dotfiles/main/install.sh)"
 
 
-sudo apt update && sudo apt upgrade -you
+#get up to speed
+sudo apt update && sudo apt upgrade -y
 ##next up - utilities
 
 # if its really bare
-sudo apt install openSSH-server
+#sudo apt install openSSH-server
 
 # general progs
 sudo apt install unzip git tree stow zoxide zsh neovim
@@ -24,6 +26,6 @@ git clone git@gitea.lab.nyga.us:andreas/dotfiles.git ~/dotfiles
 # apply them
 cd ~/dotfiles
 stow zsh
-stow oh-my-posh
+#stow oh-my-posh
 stow nvim
-stow an
+#stow an
