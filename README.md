@@ -1,5 +1,6 @@
 # dotfiles
 
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/majordingleberry/dotfiles/main/install.sh)"
+```
 
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/alpine.sh)"
-https://github.com/majordingleberry/dotfiles.git
